@@ -17,7 +17,7 @@ Materials with Tc above 77 K can be cooled with liquid nitrogen instead of liqui
 
 - **Regression:** Random Forest performed best (RMSE 9.36 K, R² 0.926), almost halving the error of linear regression (RMSE 17.66 K).
 - **Feature importance:** grouped by property, thermal conductivity and valence matter most.
-- **Classification (Tc > 77 K):** Random Forest and Gradient Boosting were tied as the best classifiers (F1 ≈ 0.85).
+- **Classification (Tc > 77 K):** Random Forest and Gradient Boosting were tied as the best classifiers (both F1 0.854).
 - **Validation:** with grouped cross-validation (keeping very similar materials together), RMSE rises from about 9.3 K to about 13.4 K, so the random-split score is somewhat optimistic.
 
 All figures are saved in [`results/figures/`](results/figures/).
